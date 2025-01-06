@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The wingfield arms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <div class="header">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <div class="d-flex align-items-center">
+                    <img src="./Images/logo.jpeg" height="30px" padding="30px" />
+
+                    <span class="container fs-4 ">The Wingfield arms</span>
+                </div>
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="./index.html" class="nav-link ">Home</a></li>
+                <li class="nav-item "><a href="./menu.html" class="nav-link  ">Menu</a></li>
+                <li class="nav-item"><a href=./about.html class="nav-link ">About us</a></li>
+                <li class="nav-item"><a href=./faqs.html class="nav-link ">FAQs</a></li>
+            </ul>
+        </header>
+    </div>
+
+    <!-- Adress -->
+
+    <div class="adress">
+        <div class=" d-flex align-items-center justify-content-between Adress">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-pin-map-fill" viewBox="0 0 16 16" style="margin-right: 8px" style="margin-top: -3px">
+                    <path fill-rule="evenodd"
+                        d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z" />
+                    <path fill-rule="evenodd"
+                        d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                </svg>
+                <i class="bi bi-geo-alt "></i> <!-- Bootstrap Icon for location -->
+                The Wingfield Arms · Old London Road, Shrewsbury, SY4 1EB
+            </span>
+
+            <span class="open-hours text-padding">Open until 11 pm
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock " viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+              </svg>
+            </span>
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <!-- Carousel -->
+    <div id="mainCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class=""
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                class=""></button>
+            <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
+                aria-current="true"></button>
+        </div>
+        <div class="carousel-inner first">
+            <div class="carousel-item active">
+                <img src="./Images/The Wingfield Arms.png" class="d-block w-100" />
+                <div class="container">
+                    <div class="carousel-caption ">
+                        <h1>Welcome to The Wingfield Arms</h1>
+                        </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./Images/Food.png" class="d-block w-100" />
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Savor Our Signature Dishes</h1>
+                        <p>  Endulge in our freshly prepared dishes made from the finest locally-sourced ingredients, bringing you a delightful dining experience.
+                        </p>
+                             <p><a class="btn btn-lg " href="./menu.html">Menu</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <img src="./Images/beer.png" class="d-block w-100" />
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Local Brews</h1>
+                        <p>Enjoy a pint of locally brewed ale in our cozy bar.
+                      </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Dates and times -->
+    <div class="container">
+        <div class="dates-times">
+
+            <div class="col-lg-6">
+
+                <div
+                    class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                        class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                    </svg>
+
+                </div>
+                <div>
+
+                    <h3 class="fs-2 ">Opening times</h3>
+                    <ul class="Opening-times">
+                        <li class="list-group-item">Monday : 12:30pm - 8:00pm</li>
+                        <li class="list-group-item">Tuesday : 12:30pm - 8:00pm</li>
+                        <li class="list-group-item">Wednesday : 12:30pm - 8:00pm</li>
+                        <li class="list-group-item">Thursday : 12:30pm - 11:00pm</li>
+                        <li class="list-group-item">Friday : 12:30pm - 11:00pm</li>
+                        <li class="list-group-item">Saturday : 12:30pm - 11:00pm</li>
+                        <li class="list-group-item">Sunday : 12:30pm - 8:00pm</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class=" address col-lg-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8z" />
+                    <path fill-rule="evenodd"
+                        d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                </svg>
+                <h3 class="fw-2 text-center">Address</h3>
+                <div class="Contact-info">
+                    <p>The Wingfield Arms</p>
+                    <p>Old London Road</p>
+                    <p>Montford Bridge</p>
+                    <p>Shrewsbury</p>
+                    <p>SY4 1EB</p>
+                </div>
+                <a class="btn btn-secondary"
+                    href="https://www.google.com/maps/place/The+Wingfield+Arms/@52.7313763,-2.8465989,533m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487aa1c1a0fd4e55:0x50b9853ca78a447a!8m2!3d52.7313764!4d-2.841728!16s%2Fg%2F1tggt1mb?entry=ttu&g_ep=EgoyMDI1MDEwMS4wIKXMDSoASAFQAw%3D%3D"
+                    target="_blank" rel="noopener noreferrer">Address »</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="events-photo-wrapper container">
+        <!-- Upcoming Events Section -->
+        <div class="upcoming-events ">
+            <div
+                class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+
+            </div>
+            <div>
+                <h3 class="fs-2 text-center">Upcoming Events</h3>
+                <p class="lead text-center">
+                    We currently don’t have any events planned, but we’re always open to your suggestions for
+                    exciting new ideas! Feel free to message us on Facebook and share your thoughts, we’d love to
+                    hear from you.
+                </p>
+                <div class="updates">
+                    <p class="lead">For any updates check here: </p>
+                    <a class="btn btn-secondary align-items-center" href="https://www.facebook.com/TheWingySY4"
+                        target="_blank" rel="noopener noreferrer">Upcoming Events »</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Polaroid Image Section -->
+        <div class="polaroid-container">
+            <div class="polaroid">
+                <img src="./Images/cute kareoke.jpg" class="polaroid" alt="Karaoke Event" />
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+    <div class="container">
+        <div class="row featurette align-items-center">
+            <!-- Carousel on the left -->
+            <div class="col-md-5 order-md-1 polaroid">
+                <div id="foodCarousel" class="carousel slide" data-bs-ride="carousel" >
+                    <div class="carousel-inner food">
+                        <div class="carousel-item active">
+                            <img src="./Images/wingfieldFood.jpeg" class="d-block "  alt="Welcome">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Images/chips.jpg" class="d-block "  alt="Food">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Images/soup.jpeg" class="d-block "  alt="Drinks">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#foodCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#foodCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    
+            <!-- Text on the right -->
+            <div class="col-md-7 order-md-2">
+                <h3 class="fs-2  text-center">Food</h3>
+                <p class="lead text-center">    Explore a variety of dishes, from hearty meals to delightful desserts, designed to tantalize your taste buds. Our commitment to using fresh, locally sourced ingredients ensures every bite is as wholesome as it is delicious.
+                </p>
+                <div class="text-center mt-4">
+                    <a href="./menu.html" class="btn btn-primary ">View Menu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- Contact us -->
+    <div class="contact ">
+        <h3 class="fs-2 text-center">Get in contact</h3>
+
+
+        <div class=" contactText">
+            <div class="row justify-content-center align-items-center text-center">
+
+                <!-- Three columns of text below the carousel -->
+
+                <div class="col-lg-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-facebook align-items-center" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                    <h3 class="fw-2 text-center">Facebook</h3>
+                    <p>Feel free to message us on Facebook. Click the button below to visit our page.</p>
+                    <a class="btn btn-secondary" href="https://www.facebook.com/TheWingySY4" target="_blank"
+                        rel="noopener noreferrer">Visit Facebook »</a>
+                </div><!-- /.col-lg-3 -->
+
+                <div class="col-lg-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path
+                            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                    </svg>
+                    <h3 class="fw-2 text-center">Calll</h3>
+                    <p>
+                    <p>01743 650623</p>
+                    </p>
+                </div><!-- /.col-lg-3 -->
+
+                <div class="col-lg-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                    </svg>
+                    <h3 class="fw-2 text-center">Email</h3>
+                    <p>thewingfieldarmspub@gmail.com</p>
+                 </div><!-- /.col-lg-3 -->
+
+
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+
+    </div>
+
+    </div>
+
+    <!-- Maps-->
+    <div class="container maps">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+            style="background-image: url('./Images/maps\ dark.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Where to find us...</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <footer class="d-flex justify-content-between align-items-center py-3 border-top">
+            <!-- Left-aligned logo and copyright text -->
+            <div class="d-flex align-items-center">
+                <img src="./Images/logo.jpeg" height="30px" class="me-3" />
+                <p class="mb-0">© 2024 Company, Inc</p>
+            </div>
+
+            <!-- Right-aligned navigation items -->
+            <ul class="nav">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2">Home</a></li>
+                <li class="nav-item"><a href="./menu.html" class="nav-link px-2">Menu</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link px-2">About us</a></li>
+                <li class="nav-item"><a href="./faqs.html" class="nav-link px-2">FAQs</a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</html>

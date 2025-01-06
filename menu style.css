@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(80, 23, 6);
+  }
+  .fs-4 {
+    color: rgb(248, 232, 199);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: larger;
+    font: weight 500px;
+    margin-left: 10px;
+  }
+  
+  .nav-link{
+    color: rgb(248, 232, 199) !important;
+}
+
+ 
+
+body {
+    background-color:rgb(244, 244, 244) !important;
+
+  }
+h1{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font: weight 500px;
+  text-align: center; /* Centers the text horizontally */
+  margin-top: 20px; /* Optional: Adds some space above the header */
+  margin-bottom: 20px; /* Optional: Adds some space below the header */
+}
+
+
+  .carousel-item img {
+    height: 700px ; /* Different height for the second carousel */
+    object-fit: cover; /* Ensures the image scales while cropping excess */
+    object-position: center; /* Keeps the image centered when cropped */
+  }
+  .carousel {
+    max-width: 700px; /* Constrain the carousel to the size of the images */
+    margin: 0 auto; /* Center the carousel */
+}
+
+
+
+  div.polaroid {
+    max-width: 700px; /* Constrain the carousel to the size of the images */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px auto; /* Center align the polaroid */
+    text-align: center; /* Center the text below */
+    padding: 10px;
+  }
+
+  .image-container {
+    position: relative;
+    text-align:;
+    color: white;
+}
+
+  button{
+    color: black !important;
+  }

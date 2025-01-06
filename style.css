@@ -1,0 +1,279 @@
+body {
+  background-color:rgb(244, 244, 244) !important;
+  margin: 0;
+}
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Libre Baskerville", serif;
+}
+
+
+.header {
+  background-color: rgb(80, 23, 6);
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold !important;
+  color:rgb(50, 50, 50);
+  
+  }
+  p{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+ 
+  }
+
+.fs-4 {
+  color: rgb(250, 240, 230) ;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font: weight 500px;
+}
+
+.justify-content-between {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(50, 50, 50);
+  margin: 10px;
+  margin-left: 2%;
+  margin-top: -15px;
+  margin-right: 2%;
+}
+
+
+.carousel-caption h1 {
+  color:rgb(250, 240, 230) ;
+  font-size: 3.5rem;
+border-radius: 2%;
+
+}
+
+.carousel-item:first-child .carousel-caption {
+  margin-bottom:30px
+}
+
+.carousel-caption p {
+  color:  rgb(250, 240, 230) ; /* Set the paragraph color */
+  font-weight: 500;
+  font-size: large;
+}
+.carousel-caption a{
+    color:rgb(250, 240, 230) }
+
+.carousel {
+  width: 100%; /* Ensures it scales with the page width */
+  max-width: 2000px; /* Set a max width to keep it smaller on larger screens */
+  margin: 0 auto; /* Centers it */
+padding-bottom: 20px;
+}
+
+#mainCarousel .carousel-item img {
+  width: 100%; /* Makes images responsive */
+  height: 600px !important; /* Maintains aspect ratio */
+  object-fit: cover; /* Crops the image to fit nicely within the height */
+}
+
+.btn{
+background-color: rgb(80, 23, 6) !important;
+outline: rgb(80, 23, 6) !important;
+
+}
+
+.nav-link{
+    color: rgb(250, 240, 230)  !important;
+}
+
+.footer{
+    background-color:  rgb(80, 23, 6);
+   max-height: 300px;
+   margin-top: 10px;
+   width: 100% !important; /* Makes the footer span the full width */
+ 
+}                                   
+
+.footer p{
+    color: rgb(250, 240, 230)  ;
+   
+}
+.footer .nav-link{
+    color: rgb(250, 240, 230)  ;
+    
+}
+
+.list-group-item{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+}
+
+.dates-times p{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+}
+.dates-times a{
+  color: rgb(250, 240, 230)  !important;
+}
+
+
+.dates-times{
+    color:rgb(50, 50, 50);
+    text-align: center;    /* Center-aligns the text inside */
+    display: flex; /* Align items side by side */
+    justify-content: center; /* Center align both columns */
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Add space between the columns */
+    margin: 20px;
+    position: relative; /* For the vertical line */
+
+}
+
+/* Individual Columns */
+.open,
+.address {
+    flex: 1; /* Equal space for both columns */
+    padding: 0 20px; /* Add padding inside columns */
+}
+
+/* Vertical Line Between Columns */
+.dates-times::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%; /* Position the line at the center */
+    width: 2px; /* Line thickness */
+    background-color: #ddd; /* Line color */
+    transform: translateX(-50%); /* Center the line exactly */
+}
+
+/* Typography and Spacing */
+.open h3,
+.address h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.open ul li,
+.contact-info p {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+
+.Contact-info p {
+    margin: 0;            /* Remove default margins */
+    line-height: 1.6;     /* Adjust line spacing to make it look like a block */
+
+  }
+
+
+  .dates-times .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.dates-times svg {
+    color:#000000; /* Replace this color with one from your scheme */
+background-color:rgb(244, 244, 244);
+}
+
+
+
+
+.christmas{
+    padding-top: 20px;
+    background-image: url('./maps dark.jpg');
+    background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+
+}
+
+
+
+.card-cover {
+    min-height: 75vh; /* Initial height for smaller screens */
+border-radius: 2%;
+  }
+
+  .card-cover h3{
+    color: antiquewhite;
+  }
+
+
+/* Polaroid Style */
+div.polaroid {
+flex:1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px auto; /* Center align the polaroid */
+  text-align: center; /* Center the text below */
+  padding: 10px;
+}
+
+
+/* Wrapper for Events and Image */
+.events-photo-wrapper {
+  display: flex; /* Aligns content side by side */
+  flex-wrap: wrap; 
+  justify-content: center; /* Adds space between sections */
+  align-items: center; /* Aligns items at the top */
+  gap: 20px; /* Adds spacing between the elements */
+padding: 40px;
+}
+
+.maps{
+  padding: 40px;
+}
+
+.upcoming-events {
+  flex: 1;
+ align-items: center; */
+  justify-content: center; /* Center content vertically */
+  text-align: left; /* Align text to the left */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contact{
+  padding-top: 40px;
+ 
+
+}
+
+.contactText .bi{
+  margin-top: 20px;
+
+}
+.updates{
+  padding-left: 25px;
+}
+
+#foodCarousel .carousel-item img {
+  width: 100%; /* Ensures the image scales horizontally */
+  height: 300px ; /* Different height for the second carousel */
+  object-fit: cover; /* Ensures the image scales while cropping excess */
+  object-position: center; /* Keeps the image centered when cropped */
+}
+
+@media (max-width: 768px) {
+  .events-photo-wrapper {
+      flex-direction: column; /* Stack the items vertically */
+      align-items: center; /* Center the content */
+  }
+
+  .polaroid-container {
+    order: -1; /* Make the image appear above the text on small screens */
+}
+
+  .upcoming-events {
+      max-width: 100%; /* Allow both sections to take up the full width */
+      text-align: center; /* Center the text */
+  }
+
+  .polaroid {
+      margin-bottom: 20px; /* Add some space between the image and the text */
+  }
+}

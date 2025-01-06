@@ -1,0 +1,82 @@
+body {
+    background-color:rgb(244, 244, 244) !important;
+
+  }
+  .header {
+    background-color: rgb(80, 23, 6);
+  }
+  .fs-4 {
+    color: rgb(248, 232, 199);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: larger;
+    font: weight 500px;
+    margin-left: 10px;
+  }
+  
+  .nav-link{
+    color: rgb(248, 232, 199) !important;
+}
+
+ 
+h1{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: larger;
+  font: weight 500px;
+  text-align: center; /* Centers the text horizontally */
+  color: rgba(50, 50, 50, 0.904) !important;
+}
+
+
+.image-container {
+    position: relative;
+    text-align:;
+    color: white;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.534); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Optional: adds rounded edges to the background */
+}
+
+.overlay-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: rgb(248, 232, 199) !important;
+}
+
+.overlay-text p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: rgb(248, 232, 199) !important;
+}
+ 
+.text{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.img-fluid{
+    border-radius: 7%;
+}
+
+.pets{
+    margin-bottom: 20px;
+    
+}
+
+.dogs{
+   background-color:  rgb(80, 23, 6);
+   color:  rgb(250, 245, 235) ;
+}
